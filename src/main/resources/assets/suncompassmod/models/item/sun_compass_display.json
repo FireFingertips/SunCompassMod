@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "suncompassmod:item/sun_compass_base",
+    "layer2": "suncompassmod:item/sun_compass_stick"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [-45, 0, 0],
+      "translation": [0, 2, -10]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-45, 0, 0],
+      "translation": [0, 2, -10]
+    }
+  }
+}

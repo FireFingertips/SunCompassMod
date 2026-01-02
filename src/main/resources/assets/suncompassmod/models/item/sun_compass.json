@@ -1,0 +1,25 @@
+{
+    "parent": "suncompassmod:item/sun_compass_display",
+    "textures": {
+        "layer1": "suncompassmod:item/sun_compass_00"
+    },
+
+    "overrides": [
+        { "predicate": { "suncompassmod:sun_shadow": 0.000000 }, "model": "suncompassmod:item/sun_compass_00" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.0625 }, "model": "suncompassmod:item/sun_compass_01" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.125 }, "model": "suncompassmod:item/sun_compass_02" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.1875 }, "model": "suncompassmod:item/sun_compass_03" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.25 }, "model": "suncompassmod:item/sun_compass_04" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.3125 }, "model": "suncompassmod:item/sun_compass_05" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.375 }, "model": "suncompassmod:item/sun_compass_06" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.4375 }, "model": "suncompassmod:item/sun_compass_07" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.5 }, "model": "suncompassmod:item/sun_compass_08" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.5625 }, "model": "suncompassmod:item/sun_compass_09" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.625 }, "model": "suncompassmod:item/sun_compass_10" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.6875 }, "model": "suncompassmod:item/sun_compass_11" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.75 }, "model": "suncompassmod:item/sun_compass_12" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.8125 }, "model": "suncompassmod:item/sun_compass_13" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.875 }, "model": "suncompassmod:item/sun_compass_14" },
+        { "predicate": { "suncompassmod:sun_shadow": 0.9375 }, "model": "suncompassmod:item/sun_compass_15" }
+    ]
+}

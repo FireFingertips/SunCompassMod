@@ -1,0 +1,6 @@
+{
+  "parent": "suncompassmod:item/sun_compass_display",
+  "textures": {
+    "layer1": "suncompassmod:item/sun_compass_14"
+  }
+}
