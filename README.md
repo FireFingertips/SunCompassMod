@@ -5,8 +5,7 @@
 
 The Sun Compass is a utility item that uses the position of the sun to cast a shadow on the board, helping you navigate during the day without relying on "magic" coordinate systems or debug screens.
 
-![Sun Compass Preview](<img width="2421" height="1293" alt="image" src="https://github.com/user-attachments/assets/8a5c6c2a-158a-4d83-a887-672f5abf3196" />
-)
+![Sun Compass Preview](https://github.com/user-attachments/assets/8a5c6c2a-158a-4d83-a887-672f5abf3196)
 
 ## 🧭 Manual & Usage Guide
 
