@@ -29,8 +29,9 @@ public class ClientModEvents {
                         // Safety check
                         if (holder == null) return 0.0f;
                         // If the item is in an Item Frame, use the frame's rotation, otherwise use the player's
-                        if (level == null && entity.level() != null) level = (ClientLevel) entity.level();
-                        if (level == null) return 0.0f;
+                        if (level == null) {
+                            level = (ClientLevel) holder.level();
+                        }
 
                         // 2. Calculate Sun Position (0.0 to 1.0)
                         // getSunAngle returns Radians (0 is Noon/South)
@@ -48,7 +49,7 @@ public class ClientModEvents {
                         // 4. Calculate Player Rotation
                         // We need the player's Yaw (Head rotation) normalized to 0.0 - 1.0
                         // MC Yaw: South=0, West=90, North=180, East=270
-                        double playerYaw = Mth.positiveModulo(entity.getYRot() / 360.0, 1.0);
+                        double playerYaw = Mth.positiveModulo(holder.getYRot() / 360.0, 1.0);
 
                         // IF in an Item Frame, use the frame's facing direction instead
                         if (holder instanceof ItemFrame frame) {
@@ -112,7 +113,7 @@ public class ClientModEvents {
 
                     // 3. Return ARGB Color
                     // We pack the Alpha into the top 8 bits. Color is Black (0x000000).
-                    return (currentAlpha << 24) | 0x000000;
+                    return (currentAlpha << 24);
                 },
                 ModItems.sun_compass.get()
         );
