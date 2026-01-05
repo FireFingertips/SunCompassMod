@@ -39,12 +39,16 @@ As the day progresses, the sun moves across the sky. To keep finding North, you 
 *Note: This tool requires practice. Direction accuracy is entirely based on time estimation. To find other directions than north, simply rotate by some degrees after finding north. For example, west would be 90 degrees, or 6 hours right, from north.*
 
 ## 📦 Obtaining
-**Currently, this item is a Creative-only utility.**
-There is no survival crafting recipe implemented yet. To obtain the Sun Compass, you must use one of the following methods:
+**There is 4 ways to craft this item in survival**
 
-1.  **Creative Mode:** Open the Creative Inventory and search for "Sun Compass".
-2.  **Command:** Use the chat command:
-    `/give @p suncompassmod:sun_compass`
+![recipe](https://github.com/user-attachments/assets/b44418d6-42a8-4062-84b2-cd7b93906cf3)
+
+To craft the Sun Compass, align any of these 4 different layouts from **bottom to top**:
+- Any plank + torch
+- Any plank + coal + stick
+- Any plank + charcoal + stick
+- Any plank + ink sac + stick
+
 ## Why is East and West swapped?
 This serves the function of time shifting easier than if it was the other way around. For example, at noon (tick time 6000, or 12 PM), to find North you simply point to N (or the upper 12) then to find west you would also simply move the shadow to point W (or the right 6).
 This way, shifting clockwise perserves directionality. Having it the "correct" way around would introduce extra mental calculations for no reason.
