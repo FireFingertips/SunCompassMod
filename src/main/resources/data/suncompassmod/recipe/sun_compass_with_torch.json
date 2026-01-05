@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "suncompassmod:sun_compass",
+  "pattern": [
+    "T",
+    "P"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "suncompassmod:sun_compass"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:recipe/root",
+  "criteria": {
+    "has_torch": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          },
+          {
+            "items": "minecraft:torch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coal_or_ink": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          },
+          {
+            "items": "minecraft:stick"
+          },
+          {
+            "items": [
+              "minecraft:coal",
+              "minecraft:charcoal",
+              "minecraft:ink_sac"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_torch",
+      "has_coal_or_ink"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "suncompassmod:sun_compass_with_torch",
+      "suncompassmod:sun_compass_with_coal",
+      "suncompassmod:sun_compass_with_charcoal",
+      "suncompassmod:sun_compass_with_ink_sac"
+    ]
+  }
+}
